@@ -158,7 +158,7 @@
 }
 /*main conteudo principal do site*/
 #conteudo_principal{
-    min-width: 300px;/*largura minima da caixa, do conteudo principal, da caixa box-level*/
+    min-width: 400px;/*largura minima da caixa, do conteudo principal, da caixa box-level*/
     max-width: 800px;/*largura maxima da caixa, do conteudo principal, da caixa box-level*/
     background-color: white;
     padding: 16px;/*um espaço interno da borda para dentro da caixa, entre a borda e conteudo da caixa main*/
