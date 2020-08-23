@@ -75,6 +75,7 @@
     /*criando um degrade com duas cores usando css: paramtros(direção em que o degrade tem que ir, cor01, cor02); posso ainda informar a quantidade de cada com no degrade usando porcentagem*/
     background-image: linear-gradient(to bottom,var(--cor19) 5%,var(--cor18));
     padding: 35px 35px 12px 35px; /*Aplicando um espaço interno entre o conteudo e a border*/
+    min-width: 420px; /*a largura não pode ser menor que isso*/
 }
 /*paragrafo do cabecalho*/
 #paragrafo_cabecalho{
@@ -118,6 +119,7 @@
     background-color: var(--cor18); /*cor de fundo*/
     margin: 0px 0px 0px 0px; /*tirando todo espaço externo ao redor da caixa*/
     padding: 19px 19px 10px 19px; /*aplicando um espaço interno*/
+    min-width: 420px; /*a largura não pode ser menor que isso*/
 }
 /*cada opção do menu de navegação*/
 .links{
@@ -198,6 +200,7 @@ footer{
        /*personalizando o paragrafo que fica embutido no padding*/
        color:white; /*dando uma cor para a fonte*/
        text-align: center; /*centralizando o texto*/
+       min-width: 420px; /*a largura não pode ser menor que isso*/
 }
 /*link do rodape mostrando quem CRIOU o site*/
 #link_pessoal{         
