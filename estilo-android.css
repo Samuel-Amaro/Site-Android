@@ -162,7 +162,7 @@
     max-width: 800px;/*largura maxima da caixa, do conteudo principal, da caixa box-level*/
     background-color: white;
     padding: 16px;/*um espaço interno da borda para dentro da caixa, entre a borda e conteudo da caixa main*/
-    margin: 0px auto 0px auto; /*centralizando todo conteudo principal do site no meio da pagina, esse e o espaço externo da caixa, centraliza ela no meio da pagina*/
+    margin: auto; /*centralizando todo conteudo principal do site no meio da pagina, esse e o espaço externo da caixa, centraliza ela no meio da pagina*/
 }
 /*p*/
 .paragrafo{
