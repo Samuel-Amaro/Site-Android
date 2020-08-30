@@ -32,11 +32,11 @@
           <p class="paragrafo">A primeira tentativa de criar um mascote surgiu em 2007 e veio de um desenvolvedor chamado <a class="links_publicos" href="https://www.madeinweb.com.br/blog/especial-android-o-robozinho-do-google-faz-aniversario/" target="_blank" rel="external">Dan Morrill.&#x1F517</a> Ele conta que abriu o <a class="links_publicos" href="https://inkscape.org/pt-br/" target="_blank" rel="external">Inkscape&#x1F517</a> (software livre para vetorização de imagens) e criou sua própria versão de robô. O objetivo era apenas personificar o sistema apenas para a a sua equipe, não existia nenhuma solicitação da empresa para a criação de um mascote</p>
           <!-- imagem 01 bug droid-->
           <picture>
-             <source media="(max-width: 700px)" srcset="imagens/dan-droids-pq.png" type="image/png">
+             <source class = "source_dan_droid" media="(max-width: 800px)" srcset="imagens/dan-droids-pq.png" type="image/png">
               <!-- carrega imagem pequena quando a pagina tiver uma largura maxima de 700px--> 
-             <source media="(max-width: 1000px)" srcset="imagens/dan-droids.png" type="image/png">  
+             <source class = "source_dan_droid" media="(max-width: 1000px)" srcset="imagens/dan-droids.png" type="image/png">  
               <!-- carrega a imagem padrão quando a pagina tiver largura maxima de 1000px -->  
-             <img src="imagens/dan-droids.png" alt="Dans Droids">
+             <img id = "img_dan_droid" src="imagens/dan-droids.png" alt="Dans Droids">
              <!-- a tag acima carrega a imagem padrão na pagina, quando estiver com a pagina por completa aberta em um computador-->
           </picture>
           <p class="paragrafo">Essa primeira versão bizarra até foi batizada em homenagem ao seu criador: seriam os Dandroids.</p>
@@ -44,11 +44,11 @@
           <p class="paragrafo">A ideia de ter um mascote foi amadurecendo e a missão foi passada para uma profissional da área. A ilustradora Russa <a class="links_publicos" href="https://www.irinablok.com/" target="_blank" rel="external">Irina Blok&#x1F517</a>, também funcionária do Google, ficou com a missão de representar o pequeno robô de uma maneira mais agradável.</p>
           <!-- imagem 02 irina block-->
           <picture>
-            <source media="(max-width: 700px)" srcset="imagens/irina-blok-pq.jpg" type="image/jpg">
+            <source class="image_irina_source" media="(max-width: 700px)" srcset="imagens/irina-blok-pq.jpg" type="image/jpg">
             <!-- carrega imagem pequena quando a pagina tiver uma largura maxima de 700px--> 
-            <source media="(max-width: 1000px)" srcset="imagens/irina-blok-pq.jpg" type="image/jpg">  
+            <source class="image_irina_source" media="(max-width: 1000px)" srcset="imagens/irina-blok-pq.jpg" type="image/jpg">  
             <!-- carrega a imagem padrão quando a pagina tiver largura maxima de 1000px --> 
-            <img src="imagens/irina-blok.jpg" alt="Criadora Mascote BugDroid">
+            <img id = "image_irina_img" src="imagens/irina-blok.jpg" alt="Criadora Mascote BugDroid">
             <!-- a tag acima carrega a imagem padrão na pagina, quando estiver com a pagina por completa aberta em um computador-->
           </picture>
           <p class="paragrafo">A ideia principal da Irina era representar tudo graficamente com poucos traços e de forma mais chapada. O desenho também deveria gerar identificação rápida com quem o olha. Surgiu então o <a class="links_publicos" href="https://www.tecmundo.com.br/android/46241-android-a-historia-do-robo-mascote-mais-famoso-do-mundo-ilustracao-.htm" target="_blank" rel="external"> Bugdroid</a>, o novo mascote do Android.</p>

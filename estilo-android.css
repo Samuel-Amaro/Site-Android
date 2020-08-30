@@ -119,7 +119,7 @@
     background-color: var(--cor18); /*cor de fundo*/
     margin: 0px 0px 0px 0px; /*tirando todo espaço externo ao redor da caixa*/
     padding: 19px 19px 10px 19px; /*aplicando um espaço interno*/
-    min-width: 420px; /*a largura não pode ser menor que isso*/
+    min-width: 452px; /*a largura não pode ser menor que isso*/
 }
 /*cada opção do menu de navegação*/
 .links{
@@ -160,8 +160,8 @@
 }
 /*main conteudo principal do site*/
 #conteudo_principal{
-    min-width: 420px;/*largura minima da caixa, do conteudo principal, da caixa box-level*/
-    max-width: 800px;/*largura maxima da caixa, do conteudo principal, da caixa box-level*/
+    min-width: 459px;/*largura minima da caixa, do conteudo principal, da caixa box-level*/
+    max-width: 810px;/*largura maxima da caixa, do conteudo principal, da caixa box-level*/
     background-color: white;
     padding: 16px;/*um espaço interno da borda para dentro da caixa, entre a borda e conteudo da caixa main*/
     margin: auto; /*centralizando todo conteudo principal do site no meio da pagina, esse e o espaço externo da caixa, centraliza ela no meio da pagina*/
@@ -173,7 +173,7 @@
 }
 /*centralizando a imagen do bugdroid no meio da pagina, utilizando a tag img usando um seletor de class*/
 .imagen_bugdroid{
-    display: block; /*estou dizendo que e so um bloco de exibição*/
+    display: block; /*estou dizendo que e so um bloco de exibição uma caixa de tipo box-level*/
     margin-left: auto; /*margin da esquerda e automatica ocupa todo espaço*/
     margin-right: auto;/*margin da direita e automatica ocupa todo espaço*/
 }
@@ -196,11 +196,11 @@
 footer{
        background-color: var(--cor16); /*cor de fundo no rodape*/
        margin: 15px 0px 0px 0px; /*personalizando um espaço externo no rodape, adicionando um espaço no top-superior da caixa para não ficar colado no main*/
-       padding: 8px; /*da um espaço interno entre o conteudo e o border do radape*/
+       padding: 16px; /*da um espaço interno entre o conteudo e o border do radape*/
        /*personalizando o paragrafo que fica embutido no padding*/
        color:white; /*dando uma cor para a fonte*/
        text-align: center; /*centralizando o texto*/
-       min-width: 420px; /*a largura não pode ser menor que isso*/
+       min-width: 459px; /*a largura não pode ser menor que isso*/
 }
 /*link do rodape mostrando quem CRIOU o site*/
 #link_pessoal{         
@@ -225,4 +225,29 @@ footer{
 .links_publicos:hover{
    text-decoration: underline; /*vai aparecer o sublinhado por baixo do link*/
    color: var(--cor1); /*vai mudar a cor do link e do sublinhado ao passar o mouse por cima*/
+}
+
+/*centralizando imagens da criado do mascote do android site*/
+picture > source.image_irina{
+    display: block; /*dizendo que e uma caixa de tipo box-level*/
+    margin-right: auto; /*que quero a imagen centralizada no meio da caixa picture*/
+    margin-left: auto;  /*que quero a imagen centralizada no meio da caixa picture*/
+}
+/*centralizando imagen na tag imag*/
+picture > img#image_irina_img{
+    display: block; /*dizendo que e uma caixa de tipo box-level*/
+    margin-right: auto; /*que quero a imagen centralizada no meio da caixa picture*/
+    margin-left: auto;  /*que quero a imagen centralizada no meio da caixa picture*/
+}
+/*centralizando imagen do dan-droid*/
+picture > source.source_dan_droid{
+    display: block; /*dizendo que e uma caixa de tipo box-level*/
+    margin-right: auto; /*que quero a imagen centralizada no meio da caixa picture*/
+    margin-left: auto;  /*que quero a imagen centralizada no meio da caixa picture*/    
+}
+/*centrlizando imagen dentro da tag img*/
+picture > img#img_dan_droid{
+    display: block; /*dizendo que e uma caixa de tipo box-level*/
+    margin-right: auto; /*que quero a imagen centralizada no meio da caixa picture*/
+    margin-left: auto;  /*que quero a imagen centralizada no meio da caixa picture*/
 }
